@@ -1,12 +1,15 @@
 # WRMCQA
-This is [Xin Liu](https://www.linkedin.com/in/xin-liu-179830143/)'s final year project, Wikipedia Retrieval and Machine Comprehension Question Answering (WRMCQA), based on Fackbook's [DrQA](https://github.com/facebookresearch/DrQA). WRMCQA belongs to [HKUST-KnowComp](https://github.com/HKUST-KnowComp) and is under the [BSD LICENSE](LICENSE).
+This is [Xin Liu](https://www.linkedin.com/in/xin-liu-179830143/)'s final year project, Wikipedia Retrieval and Machine Comprehension Question Answering (WRMCQA), based on Fackbook's [DrQA](https://github.com/facebookresearch/DrQA).
+The thesis in Chinese is avaliable at [thesis](thesis_zhcn.pdf).
+
+WRMCQA belongs to [HKUST-KnowComp](https://github.com/HKUST-KnowComp) and is under the [BSD LICENSE](LICENSE).
 
 ## Quick Links
 
-- [What is MRMCQA](#What is WRMCQA)
+- [What is MRMCQA](#What%20is%20WRMCQA)
 - [Components](#Components)
 - [Installation](#Installation)
-- [Quick Start: Demo](#Quick Start: Demo)
+- [Quick Start: Demo](#Quick%20Start:%20Demo)
 
 ## What is WRMCQA
 
@@ -34,7 +37,7 @@ To interactively query Wikipedia:
 python scripts/retriever/interactive.py --model /path/to/model
 ```
 
-If `model` is left out our [default model](#Stochastic Mnemonic Reader) will be used (assuming it was [downloaded](#Installation)).
+If `model` is left out our [default model](#Stochastic%20Mnemonic%20Reader%20(SM%20Reader)) will be used (assuming it was [downloaded](#Installation)).
 
 To evaluate the retriever accuracy (% match in top 5) on a dataset:
 
@@ -312,7 +315,7 @@ Some datasets have (potentially large) candidate lists for selecting answers. Fo
 
 ## Quick Start: Demo
 
-[Install](#Installation) WRMCQA and [download](#Trained Models and Data) our models to start asking open-domain questions!
+[Install](#Installation) WRMCQA and [download](#Trained%20Models%20and%20Data) our models to start asking open-domain questions!
 
 Run `python scripts/pipeline/interactive.py` to drop into an interactive session. For each question, the top span and the Wikipedia paragraph it came from are returned.
 
